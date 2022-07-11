@@ -1,0 +1,6 @@
+def count(sequence, item):
+  sums = 0 
+  for thing in sequence:
+    if thing == item:
+      sums += 1
+  return sums
